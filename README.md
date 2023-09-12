@@ -39,7 +39,7 @@ A simple REST API capable of CRUD operations on a Person resource
     4. Delete a person's details by providing the person's id
 
     ## Endpoints
-    ### Add new user
+    * ### Add new user
         ```/api/ [POST]```
         using this endpoint, the body look thus:
         ```{
@@ -49,7 +49,7 @@ A simple REST API capable of CRUD operations on a Person resource
             }
         ```
 
-    ### Modify Person
+    * ### Modify Person
         ```/api/person-id [GET, PUT, DELETE]```
         with this endpoint, you can either get the person's details, edit or delete a person
         ```{
