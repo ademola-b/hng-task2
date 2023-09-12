@@ -1,5 +1,5 @@
 # Description
-An simple REST API capable of CRUD operations on a Person resource
+A simple REST API capable of CRUD operations on a Person resource
 
 ## Technologies Used
 * [Django]: A python web framework
@@ -40,7 +40,7 @@ An simple REST API capable of CRUD operations on a Person resource
 
     ## Endpoints
     ### Add new user
-        ==/api/ [POST]==
+        ```/api/ [POST]```
         using this endpoint, the body look thus:
         ```{
             "name": "",
@@ -50,7 +50,7 @@ An simple REST API capable of CRUD operations on a Person resource
         ```
 
     ### Modify Person
-        ==/api/person-id [GET, PUT, DELETE]==
+        ```/api/person-id [GET, PUT, DELETE]```
         with this endpoint, you can either get the person's details, edit or delete a person
         ```{
             "id": person-id
