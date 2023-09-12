@@ -42,21 +42,23 @@ A simple REST API capable of CRUD operations on a Person resource
     * ### Add new user
         ```/api/ [POST]```
         using this endpoint, the body look thus:
-        ```{
-            "name": "",
-            "age": null,
-            "address": ""
+        ```
+            {
+                "name": "",
+                "age": null,
+                "address": ""
             }
         ```
 
     * ### Modify Person
         ```/api/person-id [GET, PUT, DELETE]```
         with this endpoint, you can either get the person's details, edit or delete a person
-        ```{
-            "id": person-id
-            "name": "person-name",
-            "age": person-age,
-            "address": "person-address"
+        ```
+            {
+                "id": person-id
+                "name": "person-name",
+                "age": person-age,
+                "address": "person-address"
             }
         ```
         
